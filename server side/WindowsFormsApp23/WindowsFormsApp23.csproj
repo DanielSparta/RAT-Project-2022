@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B52101B8-F54E-421C-8F79-939CFE60EDA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp23</RootNamespace>
+    <AssemblyName>WindowsFormsApp23</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutMe.Designer.cs">
+      <DependentUpon>AboutMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Builder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Builder.Designer.cs">
+      <DependentUpon>Builder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chat.Designer.cs">
+      <DependentUpon>Chat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerSpeak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputerSpeak.Designer.cs">
+      <DependentUpon>ComputerSpeak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection.Designer.cs">
+      <DependentUpon>Connection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectoryEntry.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keylogger.Designer.cs">
+      <DependentUpon>Keylogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgBox.Designer.cs">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notification.Designer.cs">
+      <DependentUpon>notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAM.Designer.cs">
+      <DependentUpon>RAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoteScreen.Designer.cs">
+      <DependentUpon>RemoteScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenLock.Designer.cs">
+      <DependentUpon>ScreenLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="taskbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taskbar.Designer.cs">
+      <DependentUpon>taskbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="taskmanager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taskmanager.Designer.cs">
+      <DependentUpon>taskmanager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testPaint.Designer.cs">
+      <DependentUpon>testPaint.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutMe.resx">
+      <DependentUpon>AboutMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Builder.resx">
+      <DependentUpon>Builder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat.resx">
+      <DependentUpon>Chat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComputerSpeak.resx">
+      <DependentUpon>ComputerSpeak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connection.resx">
+      <DependentUpon>Connection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keylogger.resx">
+      <DependentUpon>Keylogger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgBox.resx">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notification.resx">
+      <DependentUpon>notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RAM.resx">
+      <DependentUpon>RAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteScreen.resx">
+      <DependentUpon>RemoteScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenLock.resx">
+      <DependentUpon>ScreenLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taskbar.resx">
+      <DependentUpon>taskbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taskmanager.resx">
+      <DependentUpon>taskmanager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testPaint.resx">
+      <DependentUpon>testPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sp.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\אבטחת מידע.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\אבטחת מידע.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\טוען.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\troll.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scriptkiddie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanks.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rainbow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expl0itics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\starr.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paint.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keylogger.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powershell.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powershell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explorer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\server.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Network-Disconnected.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-icon-about-131964752256876096_256.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer Network-01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iamge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FeatureToastBulldogImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

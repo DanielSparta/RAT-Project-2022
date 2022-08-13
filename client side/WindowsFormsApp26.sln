@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpartaRATclient", "WindowsFormsApp26\SpartaRATclient.csproj", "{995295F1-F1CD-472F-BE15-A1DC9691053A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{995295F1-F1CD-472F-BE15-A1DC9691053A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995295F1-F1CD-472F-BE15-A1DC9691053A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995295F1-F1CD-472F-BE15-A1DC9691053A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995295F1-F1CD-472F-BE15-A1DC9691053A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B24F930-C20B-4FE0-BA1F-F19AA2F4E0E0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\bin\Debug\WindowsFormsApp26.exe.config
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\bin\Debug\WindowsFormsApp26.exe
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\bin\Debug\WindowsFormsApp26.pdb
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\SpartaRATclient.csproj.AssemblyReference.cache
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\SpartaRATclient.csproj.SuggestedBindingRedirects.cache
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\WindowsFormsApp26.Chat.resources
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\WindowsFormsApp26.Form1.resources
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\WindowsFormsApp26.Form2.resources
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\WindowsFormsApp26.Paint.resources
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\WindowsFormsApp26.Properties.Resources.resources
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\SpartaRATclient.csproj.GenerateResource.cache
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\SpartaRATclient.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\WindowsFormsApp26.exe
+C:\Users\Daniel\Desktop\TclientTESTING-main\WindowsFormsApp26\obj\Debug\WindowsFormsApp26.pdb

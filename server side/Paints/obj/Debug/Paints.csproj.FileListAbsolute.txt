@@ -1,0 +1,11 @@
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\bin\Debug\Paints.exe.config
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\bin\Debug\Paints.exe
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\bin\Debug\Paints.pdb
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.Form1.resources
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.Properties.Resources.resources
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.csproj.GenerateResource.cache
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.csproj.CoreCompileInputs.cache
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.exe
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.pdb
+C:\Users\Ronit\source\repos\WindowsFormsApp23\Paints\obj\Debug\Paints.csproj.AssemblyReference.cache

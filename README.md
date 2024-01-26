@@ -1,4 +1,4 @@
-# C# RAT project FXP 
+# C# SpartaRAT project FXP 
 C# RAT project that I made in 2022
 
 **_This project is unsupported. There is newer SpartaRAT version with better code and features. link: https://github.com/DanielSparta/2024-RAT-projet_**

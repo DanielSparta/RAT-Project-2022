@@ -1,5 +1,6 @@
 # C# RAT project FXP 
 C# RAT project that I made in 2022
+**_This project is unsupported. There is newer SpartaRAT version with better code and features. link: https://github.com/DanielSparta/2024-RAT-projet_**
 
 ![image](https://github.com/DanielSparta/RAT-Project-2022/assets/111179755/e28bb590-6b13-4675-87b8-4dbaaa36dbd9)
 - Build client side program
